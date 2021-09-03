@@ -4,3 +4,6 @@ if (rahakott=>tootehind)
       console.log("ostan!") ;
 else
      console.log("tõmban minema!");
+if () {
+      
+}
