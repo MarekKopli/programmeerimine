@@ -1,7 +1,8 @@
 // Object on tüüp mis salvestab key-value paare.
 // key: value
-let tööaja={
+let töötaja={
   nimi: "Timo",
   palk: 10,
 }  
+
 
