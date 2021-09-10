@@ -1,0 +1,7 @@
+// Object on tüüp mis salvestab key-value paare.
+// key: value
+let tööaja={
+  nimi: "Timo",
+  palk: 10,
+}  
+
