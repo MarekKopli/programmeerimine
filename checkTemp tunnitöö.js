@@ -16,3 +16,14 @@ console.log("Väga hea")
 
 
 }
+//
+function kasKütt(temp) {
+return temp<20
+}
+
+function kasJahutada(temp) {
+  return temp> 40
+}
+
+let kasJahutada = true
+if 
