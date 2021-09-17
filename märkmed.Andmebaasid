@@ -1,5 +1,0 @@
-codegrepper.com
-
-SELECT * FROM `products` WHERE price BETWEEN 20 AND 100,   et leida arvu kahe arvu vahelt.
-SELECT * FROM `products` WHERE name LIKE 't%',   et leida sõna mis algab teatud tähega;  '%t%' kui on vaja sõna seest vaja leida.
-SELECT * FROM `products` WHERE name LIKE '%tool%' AND price<100,    et leida laost tooteid mis seotud tooliga
