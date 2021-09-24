@@ -1,0 +1,9 @@
+DOM CRUD
+// Create
+let element = document.createElement("li")
+element.append(element)
+// Read
+document.querySelector(".red")
+document.querySelectorAll(".red")
+// Update
+element.className= "green"
