@@ -6,12 +6,21 @@ console.log(et[tahaTeada-1]); //-1 kui tahad, et 0 ei töötaks//
 //
 for ( let i=1; i<=100; i++) {
   console.log(i)
-} // 1 sajani loeb
+} // 1 sajani loeb // for loop
 
  for ( let i=50; i>=1; i--) {
   console.log(i)
-} //50 üheni loeb
- 
+} //50 üheni loeb //for loop
+
+ let i = 1;
+while
+ (i < 6) {
+  console.log(i);
+  
+i++
+;
+}//while loop
+
 let tööta = true;
 while(tööta) {
 console.log(1);
