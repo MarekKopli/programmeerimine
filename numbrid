@@ -1,9 +1,17 @@
+let katseidJärel= 3
 let kood = Math.floor(Math.random() * 10) + 1 
 console.log(kood)
-password = prompt("Sisesta üks number 1-10-ni")
-if(password == kood)
-console.log("Yay! Arvasid õige numbri ära!")
-else if(password ==kood-1 || password ==kood+1)
-console.log("oled lähedal")
-else
-console.log("Sorry, X ei ole õige number.")
+while(katseidJärel) {
+    console.log('test'+katseidJärel)
+    password = prompt("Sisesta üks number 1-10-ni")
+    if(password == kood)
+    {
+        console.log("Yay! Arvasid õige numbri ära!")
+        break
+    }
+    else if(password ==kood-1 || password ==kood+1)
+        console.log("oled lähedal")
+    else
+        console.log("Sorry, X ei ole õige number.")
+    katseidJärel--
+}
