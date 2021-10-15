@@ -1,0 +1,44 @@
+//lvl 1
+
+let str = "xxxyyy"
+let x = 0
+for (let i=0 ; i<6 ; i++)
+if (str[i] == 'x') //käib stringi läbi niikaua kui tähed otsas
+x++
+
+
+//lvl 2
+
+let str = "xxxyyy"
+let x = 0
+for (let täht of str)
+if (täht == 'x') //käib stringi läbi niikaua kui tähed otsas
+x++
+
+
+//lvl 3
+
+let str = "xxxyyy"
+let x = 0
+for (let täht of str){
+if (täht == 'x') //käib stringi läbi niikaua kui tähed otsas
+    x++
+if (täht =='y')
+    y++;
+}
+
+
+//lvl 4
+
+function balanced(tähed) {
+    let x=0, y=0;
+    for (let täht of tähed) {
+       if (täht == 'x')
+         x++;
+      if (täht == 'y')
+         y++;
+    }
+    return x == y
+}
+
+// käivitab balanced("string") 
