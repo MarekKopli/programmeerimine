@@ -50,3 +50,5 @@ let filteredTellimused = [
   }
 ]
 console.log(filteredTellimused)
+price = [49.1666666667+5.0666666667+5.825] 
+console.log(price)
