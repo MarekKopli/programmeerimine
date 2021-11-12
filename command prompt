@@ -1,0 +1,19 @@
+const content = 'Kevin on igav'
+
+fs.writeFile('C:/Users/mm-21-662/vajuta_siia.txt', content, err => {
+  if (err) {
+    console.error(err)
+    return
+  }
+})
+
+const fs = require('fs')
+
+fs.readFile('C:/Users/mm-21-662/vajuta_siia.txt', 'utf8' , (err, data) => {
+  if (err) {
+    console.error(err)
+    return
+  }
+  console.log(data)
+})
+-----------------------------------------------------------------
