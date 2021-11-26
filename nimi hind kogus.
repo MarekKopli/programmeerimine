@@ -49,6 +49,8 @@ let filteredTellimused = [
     amount:1
   }
 ]
-console.log(filteredTellimused)
-price = [49.1666666667+5.0666666667+5.825] 
-console.log(price)
+console.log(tellimus.clientName+" "+tellimus.orderNumber)
+let o = 0
+for (let i = 0; i < tellimus["rows"].length; i+=1) {
+    o += (tellimus["rows"][i]["price"] * tellimus["rows"][i]["amount"]);
+}
