@@ -19,3 +19,11 @@ for (let i = 0; i < array.length; i++) {
     sum += array[i];
 }
 console.log(sum);
+----------------------------------------------
+var aeg = 7582;
+var tunnid = Math.floor(aeg / 60 / 60);
+var minutid = Math.floor(aeg / 60) - (tunnid * 60);
+var sekundid = aeg % 60;
+
+var kokkupandud = tunnid + ':' + minutid + ':' + sekundid;
+console.log(kokkupandud)
