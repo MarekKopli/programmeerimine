@@ -32,23 +32,7 @@ var tellimus = {
     } 
   ] 
 } 
-let filteredTellimused = [
-  {
-    name: 'Kohvimasin De Longhi Dolce Gusto Piccolo EDG100.W',
-    price: 49.1666666667, 
-    amount:1 
-  },
-  {
-    name: 'Kohvikapslid Nescafe Dolce Gusto Espresso Intenso, 128 g, 16 tk',
-    price: 5.0666666667,
-    amount: 2  
-  },
-  {
-    name:'Kohvikapslid Nescafe Dolce Gusto Latte Macchiato, 194 g, 16 tk',
-    price:5.825,
-    amount:1
-  }
-]
+
 console.log(tellimus.clientName+" "+tellimus.orderNumber)
 let o = 0
 for (let i = 0; i < tellimus["rows"].length; i+=1) {
